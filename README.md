@@ -16,7 +16,9 @@
 | **Organize** | Merge, Split, Rotate, Crop, Repair, Visual page reorder |
 | **Watermark** | Add text watermark, Add image watermark, Remove text watermark |
 
-## 🚀 Installation
+## 🚀 Installation & Usage
+
+### Option 1: Run from Source
 
 ```bash
 # Clone the repository
@@ -25,13 +27,33 @@ cd All-PDF-related-solutions_Tuhin2026
 
 # Install dependencies
 pip install -r requirements.txt
-```
 
-## 💻 Usage
-
-```bash
+# Launch the app
 python main.py
 ```
+
+### Option 2: Build a Standalone `.exe` (Windows)
+
+Build a single `PDF_Solutions.exe` that runs without Python installed.
+
+**Easiest way — double-click `build_exe.bat`:**
+
+1. Make sure Python is installed on your machine.
+2. Double-click **`build_exe.bat`** in the project folder.
+3. Wait for the build to finish — it will create `dist\PDF_Solutions.exe`.
+4. Double-click `dist\PDF_Solutions.exe` to launch the app! 🎉
+
+**Or run the build script manually:**
+
+```bash
+pip install pyinstaller
+python build.py
+# Output: dist/PDF_Solutions.exe
+```
+
+### Option 3: Download a Pre-built Release
+
+Check the [Releases](https://github.com/tuhinsbcl2-ctrl/All-PDF-related-solutions_Tuhin2026/releases) page for a ready-to-use `PDF_Solutions.exe` (built automatically by GitHub Actions on every version tag).
 
 ## 🛠 Tech Stack
 
